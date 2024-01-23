@@ -1,0 +1,111 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.inicio {
+    background: url("/assets/resources/img/fondo.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.contenedor_principal header {
+    background-color: #14243c;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    top: 0;
+}
+
+.contenedor_principal header .container-header {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 25px 20px;
+}
+
+.contenedor_principal header .container-header h1 {
+    text-align: center;
+    font-weight: bold;
+    color: snow;
+}
+
+.contenedor_principal header .container-header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor_principal header .container-header nav ul li a {
+    text-decoration: none;
+    color: snow;
+    margin: 0 25px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contenedor_principal header .container-header nav ul li a:hover {
+    color: #fb8630;
+}
+
+/*SECTION INICIO*/
+
+.contenedor_principal .informacion{
+    max-width: 1200px;
+    height: 100vh;
+    margin: auto;
+    color: #fcb404;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor_principal .informacion .bienvenida {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #fcb404;
+}
+
+.contenedor_principal .informacion h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fb8630;
+}
+
+.contenedor_principal .informacion span {
+    font-size: 40px;
+    color: #fcb404;
+}
+
+.contenedor_principal .informacion p {
+    font-size: 15px;
+}
+
+.contenedor_principal .informacion a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 25px 20px;
+    border: 2px solid snow;
+    background-color: #fb8630;
+    border-radius: 50px;
+    color: snow;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: .6s;
+}
+
+.contenedor_principal .informacion a:hover {
+    background-color: #fcb404;
+}
+
