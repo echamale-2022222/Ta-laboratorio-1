@@ -5,13 +5,6 @@
     font-family: monospace;
 }
 
-.inicio {
-    background: url("/assets/resources/img/fondo.jpg");
-    background-size: cover;
-    background-position: center center;
-    height: 100vh;
-}
-
 .contenedor_principal header {
     background-color: #14243c;
     width: 100%;
@@ -55,41 +48,59 @@
 
 /*SECTION INICIO*/
 
-.contenedor_principal .informacion{
+.slider {
+    overflow: hidden;
+}
+
+.slider--inner {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.slider .slider--inner img {
+    width: 1200px;
+    height: 100vh;
+    margin: auto;
+}
+
+.informacion{
     max-width: 1200px;
     height: 100vh;
     margin: auto;
     color: #fcb404;
-    display: flex;
+    position: absolute;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.contenedor_principal .informacion .bienvenida {
+.informacion .bienvenida {
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 5px;
     color: #fcb404;
 }
 
-.contenedor_principal .informacion h2 {
+.informacion h2 {
     font-size: 35px;
     margin-bottom: 20px;
     text-align: center;
     color: #fb8630;
 }
 
-.contenedor_principal .informacion span {
+.informacion span {
     font-size: 40px;
     color: #fcb404;
 }
 
-.contenedor_principal .informacion p {
+.informacion p {
     font-size: 15px;
 }
 
-.contenedor_principal .informacion a {
+.informacion a {
     text-decoration: none;
     display: inline-block;
     margin: 25px;
@@ -104,12 +115,23 @@
     transition: .6s;
 }
 
-.contenedor_principal .informacion a:hover {
+.informacion a:hover {
     background-color: #fcb404;
 }
+
 
 /*SECTION PASATIEMPOS*/
 
 .contenedor-pasatiempos {
-    
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+}
+
+.pasatiempos {
+    flex: 1 0 auto;
+    margin: 0 50px;
+    background-color: aqua;
+    width: 1003px;
+    height: 100vh;
 }
