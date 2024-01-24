@@ -5,15 +5,24 @@
     font-family: monospace;
 }
 
+.inicio {
+    background: url(/assets/resources/img/imgFondo.jpg);
+    max-width: 1200px;
+    height: 100vh;
+    margin: auto;
+}
+
 .contenedor_principal header {
     background-color: #14243c;
     width: 100%;
     height: 80px;
+    margin: auto;
     top: 0;
 }
 
 .contenedor_principal header .container-header {
     max-width: 1200px;
+    height: 80px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -22,10 +31,8 @@
     padding: 25px 20px;
 }
 
-.contenedor_principal header .container-header h1 {
-    text-align: center;
-    font-weight: bold;
-    color: snow;
+.contenedor_principal header .container-header img {
+    width: 200px;
 }
 
 .contenedor_principal header .container-header nav ul {
@@ -48,30 +55,12 @@
 
 /*SECTION INICIO*/
 
-.slider {
-    overflow: hidden;
-}
-
-.slider--inner {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    width: 100%;
-}
-
-.slider .slider--inner img {
-    width: 1200px;
-    height: 100vh;
-    margin: auto;
-}
-
 .informacion{
     max-width: 1200px;
     height: 100vh;
     margin: auto;
     color: #fcb404;
-    position: absolute;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -122,16 +111,68 @@
 
 /*SECTION PASATIEMPOS*/
 
-.contenedor-pasatiempos {
+.pasatiempos {
     display: flex;
-    flex-wrap: nowrap;
-    overflow: scroll;
+    max-width: 1200px;
+    height: 850px;
+    margin: auto;
 }
 
-.pasatiempos {
-    flex: 1 0 auto;
-    margin: 0 50px;
-    background-color: aqua;
-    width: 1003px;
-    height: 100vh;
+.pasatiempos h2 {
+    position: absolute;
+    font-size: 30px;
+    color: #24346c;
+    top: 900px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.pasatiempos  img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.7;
+    transition: .5s ease;
+}
+
+.pasatiempos img:hover {
+    cursor: crosshair;
+    width: 650px;
+    opacity: 1;
+}
+
+#slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    width: 500px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 1 1 #14243c;
+}
+
+#slider {
+    display: flex;
+    width: 300px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.card {
+    flex: 0 0 auto;
+    width: 300px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
 }
