@@ -230,6 +230,26 @@
     line-height: 22px;
 }
 
+
+.multimedia .contenedor-multimedia-main {
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    padding: 250px 15px ;
+    color: black;
+}
+
+.multimedia .contenedor-multimedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.multimedia .contenedor-multimedia iframe {
+    width: 1000px;
+    height: 500px;
+}
+
 footer {
     display: flex;
     justify-content: center;
