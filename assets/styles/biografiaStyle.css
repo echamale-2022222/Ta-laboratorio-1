@@ -114,3 +114,41 @@
     color: #24346c;
     margin-bottom: 12px;
 }
+
+/*SECTION METAS*/
+.metas {
+    max-width: 1200px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.metas .metas_p .tituloMetas {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #14243c;
+    text-decoration: underline;
+    text-decoration-color: #fb8630;
+    text-decoration-thickness: 8px;
+    margin-bottom: 80px;
+}
+
+.metas .metas_p h2 {
+    color: #14243c;
+    margin-bottom: 80px;
+}
+
+.metas ul {
+    list-style-type: '🥇';
+}
+
+.metas ul li {
+    opacity: 1;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
