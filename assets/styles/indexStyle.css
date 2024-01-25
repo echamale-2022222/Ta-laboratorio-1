@@ -114,7 +114,7 @@
     flex-wrap: nowrap;
 }
 
-.imagen_con_rectangulo {
+.contenedor_pasatiempos {
     display: flex;
     justify-content: space-between;
     position: relative;
