@@ -1,16 +1,14 @@
-const slider = document.querySelectorAll('.slider_content');
-const anterior = document.querySelector('.anterior');
-const siguiente = document.querySelector('.siguiente');
-var index = 0;
+function pasatiempo() {
+    var sectionPasatiempo = document.querySelector('.pasatiempos');
 
-const mount = () => slider[index].classList.add('active');
+    sectionPasatiempo.scrollIntoView({behavior: 'smooth'});
 
-siguiente.addEventListener('click', () =>{
-    slider[index].classList.remove('.active')
-    index ++;
-    mount();
-});
+}
 
+function like() {
+    var sectionLike = document.querySelector('.like');
 
+    sectionLike.scrollIntoView({behavior: 'smooth'});
+    
+}
 
-mount();

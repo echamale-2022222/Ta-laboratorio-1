@@ -27,9 +27,9 @@
                     <img src="./assets/resources/img/logo_transparent.png" alt="">
                     <nav class="nav">
                         <ul class="links">
-                            <li><a href="#">Inicio</a></li>
-                            <li><a href="#">Pasatiempos</a></li>
-                            <li><a href="#">Lo que más me gusta</a></li>
+                            <li><a >Inicio</a></li>
+                            <li><a onclick="pasatiempo()">Pasatiempos</a></li>
+                            <li><a onclick="like()">Lo que más me gusta</a></li>
                             <li><a href="./assets/pages/biografia.html">Biografía</a></li>
                             <li><a href="./assets/pages/redKinal.html">Rediseño página kinal</a></li>
                         </ul>
@@ -42,44 +42,119 @@
         <div class="informacion">
             <p class="bienvenida">Bienvenidos</p>
             <h2>Conoce <span>todo lo que me gusta hacer</span>, en mi día a día</h2>
-            <p class="descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Harum pariatur ab deserunt repudiandae molestiae alias veritatis. Placeat
-                nulla omnis earum, sed quaerat officia quibusdam aliquam error rem quisquam nemo
-                voluptas!</p>
-            <a href="#">Descubre más</a>
+            <a onclick="pasatiempo()">Descubre más</a>
         </div>
     </section>
 
     <section class="pasatiempos">
         <h2>Pasatiempos</h2>
-        <img src="./assets/resources/img/img5.jpg">
-        <img src="./assets/resources/img/img6.jpg">
-        <img src="./assets/resources/img/img7.jpg">
-        <img src="./assets/resources/img/img8.jpg">
-        <img src="./assets/resources/img/img9.jpg">
-        <img src="./assets/resources/img/img10.jpg">
-    </section>
-
-        <div class="container">
-            <div class="slider">
-                <div class="slider_content">
-                    <img src="/assets/resources/img/img5.jpg"  alt="">
-                    <h3>Programar</h3>
-                </div>
-                <div class="slider_content">
-                    <img src="/assets/resources/img/img5.jpg"  alt="">
-                    <h3>Programar</h3>
-                </div>
-            </div>
-            <div class="controls">
-                <div class="control anterior">
-                    <img src="/assets/resources/img/left.png" width="32px">
-                </div>
-                <div class="control siguiente">
-                    <img src="/assets/resources/img/right.png" alt="">
-                </div>
+        <div class="imagen_con_rectangulo">
+            <img src="./assets/resources/img/img5.jpg">
+            <div class="descripcion_img">
+                <h3>Programar</h3>
+                <p>Soy una persona que le gusta la programacion y el desarrollo de aplicaciones.</p>
             </div>
         </div>
+        <div class="imagen_con_rectangulo">
+            <img src="./assets/resources/img/img6.jpg">
+            <div class="descripcion_img">
+                <h3>Pasar tiempo con las mascotas</h3>
+                <p>Dedicar un pequeño momento para pasar con mis perros</p>
+            </div>
+        </div>
+        <div class="imagen_con_rectangulo">
+            <img src="./assets/resources/img/img7.jpg">
+            <div class="descripcion_img">
+                <h3>Descansos</h3>
+                <p>Tomar descansos mientras programo.</p>
+            </div>
+        </div>
+        <div class="imagen_con_rectangulo">
+            <img src="./assets/resources/img/img8.jpg">
+            <div class="descripcion_img">
+                <h3>Escuchar musica</h3>
+                <p>Me gusta escuchar musica ya sea en mis tiempos libres o cuando programo.</p>
+            </div>
+        </div>
+        <div class="imagen_con_rectangulo">
+            <img src="./assets/resources/img/img9.jpg">
+            <div class="descripcion_img">
+                <h3>Videojuegos</h3>
+                <p>Me gustan los videojuegos y en mis tiempos libres me gusta jugar videojuegos</p>
+            </div>
+        </div>
+        <div class="imagen_con_rectangulo">
+            <img src="./assets/resources/img/img10.jpg">
+            <div class="descripcion_img">
+                <h3>Explorar</h3>
+                <p>En mis tiempos libres me gusta explorar lugares nuevos.</p>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="like">
+        <h1 class="titulo">Lo que más me gusta</h1>
+        <div class="contenedor">
+            <div class="tarjeta">
+                <img src="/assets/resources/img/imgNetflix.jpg">
+                <h1>Ver series</h1>
+                <h4>Actividad que la hago frecuente</h4>
+                <hr>
+                <br>
+                <p>Ver series o peliculas es una de las cosas que más me gustan me ayuda para relajarme y bajar el estres sobre diferentes obligaciones que tengo. Una de mis series favoritas es "La casa de papel" y mi pelicula favorita es "Caracortada".</p>
+            </div>
+
+            <div class="tarjeta">
+                <img src="/assets/resources/img/imgFamilia.jpg">
+                <h1>Pasar en familia</h1>
+                <h4>Actividad que trato de hacer diariamente</h4>
+                <hr>
+                <br>
+                <p>Es una de las cosas que mas me gusta, pasar tiempo en familia es de lo mejor para que todos vivamos o estemos en armonia. Son momentos que se quedan guardados y si no se aprovechan ahora luego sera demasiado tarde.</p>
+            </div>
+
+            <div class="tarjeta">
+                <img src="/assets/resources/img/imgPlaca.jpg">
+                <h1>Armar y desarmar cosas</h1>
+                <h4>Actividad que hago muy poco</h4>
+                <hr>
+                <br>
+                <p>Son una persona que a la cual le gusta andar desarmando y armando cosas  por curiosidad o solo para ver como funcionan, desde pequeño eh sido así y también el gusto por las computadoras fue así me parecia algo interesante como eran y como funcionan.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="like_2">
+        <div class="contenedor">
+            <div class="tarjeta">
+                <img src="/assets/resources/img/imgBongi.jpg">
+                <h1>Actividades extremas</h1>
+                <h4>Actividad que la hago muy poco</h4>
+                <hr>
+                <br>
+                <p>Las actividades extremas es algo que me gusta demasiado, unas de las actividades extremas que me gustarian hacer serian como rapel, paracaidismo, jetboarding, canopy pero sobre una actividad que siempre eh querido hacer es salto de Bungee</p>
+            </div>
+
+            <div class="tarjeta">
+                <img src="/assets/resources/img/imgProgra.jpg">
+                <h1>Programar</h1>
+                <h4>Actividad que hago diariamente</h4>
+                <hr>
+                <br>
+                <p>Mi pasión por las computadoras y el poder crear aplicaciones que sirvan para poder solucionar problemas, me intereso demasiado y es por eso que escogi la carrera de informatica ya que sabia a lo que me queria dedicar.</p>
+            </div>
+
+            <div class="tarjeta">
+                <img src="/assets/resources/img/imgSalir.jpg">
+                <h1>Salir a comer</h1>
+                <h4>Actividad de 1 vez a la semana</h4>
+                <hr>
+                <br>
+                <p>Es una actividad que me gusta demasiado ya que me la paso bien conviviendo con demas personas y se pasa un buen rato, me ayuda a liberar el estres que ya sea por estudio o por otras cosas. </p>
+            </div>
+        </div>
+    </section>
 
     <footer>© Edwar Chamalé - Kinal 2024</footer>
 </body>
