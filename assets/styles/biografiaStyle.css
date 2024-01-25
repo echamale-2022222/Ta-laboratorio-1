@@ -250,6 +250,93 @@
     height: 500px;
 }
 
+.proyectos {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.proyectos_2 {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.proyectos_3 {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.proyectos h3 {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #14243c;
+    text-decoration: underline;
+    text-decoration-color: #fb8630;
+    text-decoration-thickness: 8px;
+    margin-bottom: 50px;
+}
+
+.contenedor {
+    display: flex;
+    max-width: 1200px;
+    height: 500px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: auto;
+}
+.contenedor .tarjeta {
+    width: 350px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 0 2px 2px;
+    color: #14243c;
+    overflow: hidden;
+    margin-top: 50px;
+    margin: 50px;
+    text-align: center;
+    transition: all .8s;
+    background: #24346c;
+    opacity: 0.8;
+}
+
+.contenedor .tarjeta:hover {
+    cursor: pointer;
+    transform: translateY(-20px);
+    box-shadow: 0 12px 15px;
+    color: #24346c;
+    opacity: 1;
+}
+
+.contenedor .tarjeta img {
+    width: 250px;
+    height: 230px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 5px solid snow;
+}
+
+.contenedor .tarjeta h1 {
+    font-weight: bold;
+    color: #fb8630;    
+}
+
+.contenedor .tarjeta h4 {
+    font-weight: bold;
+    color: #fcb404;
+}
+
+.contenedor .tarjeta p {
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: bold;
+    color: snow;
+}
+
+
 footer {
     display: flex;
     justify-content: center;
