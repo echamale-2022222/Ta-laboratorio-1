@@ -152,3 +152,94 @@
     font-weight: bold;
     margin-bottom: 20px;
 }
+
+/*SECTION HABILIDADES*/
+
+.habilidades {
+    max-width: 1200px;
+    height: 100vh;
+    padding: 100px 15px;
+    text-align: center;
+    margin: auto;
+}
+
+.habilidades .titulo {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #14243c;
+    text-decoration: underline;
+    text-decoration-color: #fb8630;
+    text-decoration-thickness: 8px;
+    margin-bottom: 50px;
+}
+
+.habilidades .fila {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.skill {
+    border: 1px solid #24346c;
+}
+
+.habilidades .fila .skill {
+    max-width: 300px;
+    background-color: snow;
+    padding: 30px;
+    margin: 0 5px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.habilidades .fila .skill:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #24346c, -5px -5px 10px #24346c;
+}
+
+.habilidades .fila .skill .icono {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: #fcb404;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.habilidades .fila .skill h4 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 25px;
+    color: #14243c;
+}
+
+.habilidades .fila .skill hr {
+    width: 80%;
+    margin: auto;
+    color: #fb8630;
+    margin-bottom: 25px;
+}
+
+.habilidades .fila .skill p {
+    color: #14243c;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #14243c;
+    height: 50px;
+    color: snow;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: auto;
+    flex-wrap: wrap;
+    text-align: center;
+}
