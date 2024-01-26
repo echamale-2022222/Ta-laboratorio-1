@@ -1,20 +1,22 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Syne', sans-serif;
 }
 
 .container header {
-    background-color: #14243c;
+    background-color: #16233f;
     width: 100%;
     height: 90px;
     margin: auto;
 }
 
 .main-container header .container-header {
-    max-width: 1075px;
-    margin: auto;
-    height: 90px;
+    max-width: 1300px;
+    height: 80px;
     display: flex;
+    margin: auto;
     justify-content: space-between;
     align-items: center;
     align-content: center;
@@ -22,8 +24,13 @@
 }
 
 .main-container header .container-header img {
-    width: 150px;
-    height: 80;
+    width: 171px;
+    height: 62;
+}
+
+.main-container header .container-header .banco img {
+    width: 123px;
+    height: 62px;
 }
 
 .main-container header .container-header nav ul {
@@ -36,8 +43,20 @@
     text-decoration: none;
     color: snow;
     margin: 0 25px;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     cursor: pointer;
+}
+
+.main-container header .container-header .anar {
+    color: #eb7207;
+}
+
+.main-container header .container-header .anar:hover {
+    color: #FDB500;
+}
+
+.main-container header .container-header nav ul li a:hover{
+    color: #eb7207;
 }
 
