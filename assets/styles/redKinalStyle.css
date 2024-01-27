@@ -180,6 +180,23 @@
     color: #fff;
 }
 
+.container-partners {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.container-partners .card img{
+    margin: 10px;
+    width: 166px;
+    height: 166px;
+}
+
+.container-partners .card:hover{ 
+    opacity: 0.1;
+}
+
 .pie-pagina{
     width: 100%;
     background-color: #24346c;
